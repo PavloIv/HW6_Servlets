@@ -16,7 +16,7 @@
               <li class="active"><a href="/">Home</a></li>
           </div>
         </nav>
-        <form action="/companies/createCompaniesForm">
+        <form action="/projects/createProjectsForm">
             <label for="projectName"> project name: </label><br>
             <input type="text" id="projectName" name="projectName"><br>
             <label for="projectDescription"> project description: </label><br>
