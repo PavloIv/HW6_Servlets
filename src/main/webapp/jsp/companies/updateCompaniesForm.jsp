@@ -10,23 +10,19 @@
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Create developer</a>
+              <a class="navbar-brand" href="#">Update company</a>
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
           </div>
         </nav>
         <form action="/companies/updateCompaniesForm">
-            <label for="developerId"> developer id: </label><br>
-            <input type="text" id="developerId" name="developerId"><br>
-            <label for="developerName"> developer name: </label><br>
-            <input type="text" id="developerName" name="developerName"><br>
-            <label for="developerAge"> developer age: </label><br>
-            <input type="text" id="developerAge" name="developerAge"><br>
-            <label for="developerSex"> developer sex: </label><br>
-            <input type="text" id="developerSex" name="developerSex"><br>
-            <label for="developerSalary"> developer salary: </label><br>
-            <input type="text" id="developerSalary" name="developerSalary"><br>
+            <label for="companyId"> company id: </label><br>
+            <input type="text" id="companyId" name="companyId"><br>
+            <label for="companyName"> company name: </label><br>
+            <input type="text" id="companyName" name="companyName"><br>
+            <label for="companyYearFoundation"> company year of foundation: </label><br>
+            <input type="text" id="companyYearFoundation" name="companyYearFoundation"><br>
 
             <button type="submit">Update</button>
         </form>

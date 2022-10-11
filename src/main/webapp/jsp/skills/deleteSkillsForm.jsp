@@ -10,17 +10,17 @@
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Find developer</a>
+              <a class="navbar-brand" href="#">Delete skill</a>
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
           </div>
         </nav>
-        <form action="/companies/findCompaniesForm">
-            <label for="developerName"> developer id: </label><br>
-            <input type="text" id="developerId" name="developerId"><br>
+        <form action="/skills/deleteSkillsForm">
+            <label for="skillId"> skill id: </label><br>
+            <input type="text" id="skillId" name="skillId"><br>
 
-            <button type="submit">Find</button>
+            <button type="submit">Delete</button>
         </form>
     </body>
 </html>

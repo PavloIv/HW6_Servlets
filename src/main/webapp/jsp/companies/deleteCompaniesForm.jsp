@@ -10,15 +10,15 @@
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Delete developer</a>
+              <a class="navbar-brand" href="#">Delete company</a>
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
           </div>
         </nav>
         <form action="/companies/deleteCompaniesForm">
-            <label for="developerName"> developer id: </label><br>
-            <input type="text" id="developerId" name="developerId"><br>
+            <label for="companyId"> company id: </label><br>
+            <input type="text" id="companyId" name="companyId"><br>
 
             <button type="submit">Delete</button>
         </form>

@@ -10,19 +10,21 @@
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Create customer</a>
+              <a class="navbar-brand" href="#">Update skill</a>
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
           </div>
         </nav>
-        <form action="/customers/createCustomersForm">
-            <label for="customerName"> customer name: </label><br>
-            <input type="text" id="customerName" name="customerName"><br>
-            <label for="customerWebsite"> customer website: </label><br>
-            <input type="text" id="customerWebsite" name="customerWebsite"><br>
+        <form action="/skills/updateSkillsForm">
+            <label for="skillId"> skill id: </label><br>
+            <input type="text" id="skillId" name="skillId"><br>
+            <label for="language"> language: </label><br>
+            <input type="text" id="language" name="language"><br>
+            <label for="level"> level: </label><br>
+            <input type="text" id="level" name="level"><br>
 
-            <button type="submit">Create</button>
+            <button type="submit">Update</button>
         </form>
     </body>
 </html>

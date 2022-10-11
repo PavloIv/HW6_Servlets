@@ -11,6 +11,6 @@ import java.io.IOException;
 public class UpdateCompaniesController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/companies/updateProjectsForm.jsp").forward(req,resp);
+        req.getRequestDispatcher("/jsp/companies/updateSkillsForm.jsp").forward(req,resp);
     }
 }

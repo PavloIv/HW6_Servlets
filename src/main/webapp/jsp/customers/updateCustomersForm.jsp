@@ -17,16 +17,12 @@
           </div>
         </nav>
         <form action="/customers/updateCustomersForm">
-            <label for="developerId"> developer id: </label><br>
-            <input type="text" id="developerId" name="developerId"><br>
-            <label for="developerName"> developer name: </label><br>
-            <input type="text" id="developerName" name="developerName"><br>
-            <label for="developerAge"> developer age: </label><br>
-            <input type="text" id="developerAge" name="developerAge"><br>
-            <label for="developerSex"> developer sex: </label><br>
-            <input type="text" id="developerSex" name="developerSex"><br>
-            <label for="developerSalary"> developer salary: </label><br>
-            <input type="text" id="developerSalary" name="developerSalary"><br>
+            <label for="customerId"> customer id: </label><br>
+            <input type="text" id="customerId" name="customerId"><br>
+            <label for="customerName"> customer name: </label><br>
+            <input type="text" id="customerName" name="customerName"><br>
+            <label for="customerWebsite"> customer website: </label><br>
+            <input type="text" id="customerWebsite" name="customerWebsite"><br>
 
             <button type="submit">Update</button>
         </form>

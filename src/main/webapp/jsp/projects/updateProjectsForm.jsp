@@ -17,7 +17,7 @@
           </div>
         </nav>
         <form action="/project/updateProjectsForm">
-            <label for="projectId"> developer id: </label><br>
+            <label for="projectId"> project id: </label><br>
             <input type="text" id="projectId" name="projectId"><br>
             <label for="projectName"> project name: </label><br>
             <input type="text" id="projectName" name="projectName"><br>

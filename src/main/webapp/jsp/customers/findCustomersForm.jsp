@@ -10,15 +10,15 @@
         <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#">Find developer</a>
+              <a class="navbar-brand" href="#">Find customer</a>
             </div>
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home</a></li>
           </div>
         </nav>
         <form action="/customers/findCustomersForm">
-            <label for="developerName"> developer id: </label><br>
-            <input type="text" id="developerId" name="developerId"><br>
+            <label for="customerId"> customer id: </label><br>
+            <input type="text" id="customerId" name="customerId"><br>
 
             <button type="submit">Find</button>
         </form>
