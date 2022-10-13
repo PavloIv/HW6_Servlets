@@ -5,12 +5,12 @@ import java.util.Objects;
 public  class Customers {
     private Integer id;
     private String name;
-    private String Website;
+    private String website;
 
     public Customers(Integer id, String name, String website) {
         this.id = id;
         this.name = name;
-        Website = website;
+        this.website = website;
     }
 
     public Customers() {
@@ -33,11 +33,11 @@ public  class Customers {
     }
 
     public String getWebsite() {
-        return Website;
+        return website;
     }
 
     public void setWebsite(String website) {
-        Website = website;
+        this.website = website;
     }
 
     @Override
@@ -45,7 +45,7 @@ public  class Customers {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Customers customers = (Customers) o;
-        return Objects.equals(id, customers.id) && Objects.equals(name, customers.name) && Objects.equals(Website, customers.Website);
+        return Objects.equals(id, customers.id) && Objects.equals(name, customers.name) && Objects.equals(website, customers.website);
     }
 
     @Override
@@ -53,7 +53,7 @@ public  class Customers {
         return  "\n" + "{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", Website='" + Website + '\'' +
+                ", Website='" + website + '\'' +
                 '}' + "\n";
     }
 }

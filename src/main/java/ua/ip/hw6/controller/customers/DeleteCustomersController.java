@@ -11,6 +11,6 @@ import java.io.IOException;
 public class DeleteCustomersController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/customers/deleteCustomersForm.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/jsp/customers/deleteCustomersForm.jsp").forward(req,resp);
     }
 }

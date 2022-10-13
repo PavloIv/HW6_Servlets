@@ -11,6 +11,6 @@ import java.io.IOException;
 public class CreateCustomersController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/customers/createCustomersForm.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/jsp/customers/createCustomersForm.jsp").forward(req,resp);
     }
 }

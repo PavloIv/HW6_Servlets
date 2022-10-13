@@ -11,6 +11,6 @@ import java.io.IOException;
 public class DeleteProjectsController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/jsp/projects/deleteProjectsForm.jsp").forward(req,resp);
+        req.getRequestDispatcher("/WEB-INF/jsp/projects/deleteProjectsForm.jsp").forward(req,resp);
     }
 }

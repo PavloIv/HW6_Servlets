@@ -9,15 +9,15 @@ public  class Developers {
     private String sex;
     private Integer salary;
 
+    public Developers() {
+    }
+
     public Developers(Integer id, String name, Integer age, String sex, Integer salary) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.sex = sex;
         this.salary = salary;
-    }
-
-    public Developers() {
     }
 
     public Integer getId() {
