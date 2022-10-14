@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <c:import url="${contextPath}/WEB-INF/jsp/tableStyle.jsp"/>
     </head>
     <body>
         <c:import url="${contextPath}/WEB-INF/jsp/navigation.jsp"/>
@@ -19,14 +20,12 @@
         <table>
             <thead>
                     <tr>
-                        <td style="text-align: center"> Developer id:</td>
-                        <td style="text-align: center"> Developer name:</td>
-                        <td style="text-align: center">Developer age:</td>
-                        <td style="text-align: center">Developer sex:</td>
-                        <td style="text-align: center">Developer salary:</td>
+                        <th > Developer id:</th>
+                        <th > Developer name:</th>
+                        <th >Developer age:</th>
+                        <th >Developer sex:</th>
+                        <th >Developer salary:</th>
                     </tr>
-        <table>
-            <tbody>
                     <tr>
                         <td>
                             <c:out value="${developers.id}"/>
@@ -44,7 +43,6 @@
                             <c:out value="${developers.salary}"/>
                         </td>
                     </tr>
-            </tbody>
         </table>
     </body>
 </html>

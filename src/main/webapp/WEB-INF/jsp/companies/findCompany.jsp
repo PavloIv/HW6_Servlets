@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <c:import url="${contextPath}/WEB-INF/jsp/tableStyle.jsp"/>
     </head>
     <body>
         <c:import url="${contextPath}/WEB-INF/jsp/navigation.jsp"/>
@@ -19,12 +20,10 @@
         <table>
             <thead>
                     <tr>
-                        <td style="text-align: center">id:</td>
-                        <td style="text-align: center">name:</td>
-                        <td style="text-align: center">Year of foundation:</td>
+                        <th >id:</th>
+                        <th >name:</th>
+                        <th >Year of foundation:</th>
                     </tr>
-        <table>
-            <tbody>
                     <tr>
                         <td>
                             <c:out value="${company.id}"/>
@@ -36,7 +35,6 @@
                             <c:out value="${company.year_of_foundation}"/>
                         </td>
                     </tr>
-            </tbody>
         </table>
     </body>
 </html>

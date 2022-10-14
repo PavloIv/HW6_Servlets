@@ -1,12 +1,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
+
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <c:import url="${contextPath}/WEB-INF/jsp/tableStyle.jsp"/>
     </head>
     <body>
         <c:import url="${contextPath}/WEB-INF/jsp/navigation.jsp"/>
@@ -19,37 +21,34 @@
         <table>
             <thead>
                     <tr>
-                        <td style="text-align: center"> id:</td>
-                        <td style="text-align: center"> name:</td>
-                        <td style="text-align: center"> description:</td>
-                        <td style="text-align: center"> cost:</td>
-                        <td style="text-align: center"> company_id:</td>
-                        <td style="text-align: center"> customer_id:</td>
+                        <th >id:</th>
+                        <th >name:</th>
+                        <th >description:</th>
+                        <th >cost:</th>
+                        <th >company_id:</th>
+                        <th >customer_id:</th>
                     </tr>
-        <table>
-            <tbody>
                     <tr>
-                        <td>
+                        <td >
                             <c:out value="${project.id}"/>
                         </td>
-                        <td>
+                        <td >
                             <c:out value="${project.name}"/>
                         </td>
-                        <td>
+                        <td >
                             <c:out value="${project.description}"/>
                         </td>
-                        <td>
+                        <td >
                             <c:out value="${project.cost}"/>
                         </td>
-                        <td>
+                        <td >
                             <c:out value="${project.company_id}"/>
                         </td>
-                        <td>
+                        <td >
                             <c:out value="${project.customer_id}"/>
                         </td>
 
                     </tr>
-            </tbody>
         </table>
     </body>
 </html>
