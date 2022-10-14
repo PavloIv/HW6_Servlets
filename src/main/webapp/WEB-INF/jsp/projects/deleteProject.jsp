@@ -16,6 +16,6 @@
 
             <button type="submit">Delete</button>
         </form>
-        <h2>Developer delete</h2>
+        <h2>Project delete</h2>
     </body>
 </html>

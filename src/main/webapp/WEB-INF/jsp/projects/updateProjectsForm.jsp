@@ -19,6 +19,8 @@
             <input type="text" id="projectDescription" name="projectDescription"><br>
             <label for="companyId"> company id: </label><br>
             <input type="text" id="companyId" name="companyId"><br>
+            <label for="customerId"> company id: </label><br>
+            <input type="text" id="customerId" name="customerId"><br>
 
             <button type="submit">Update</button>
         </form>

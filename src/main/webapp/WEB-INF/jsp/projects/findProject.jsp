@@ -19,30 +19,35 @@
         <table>
             <thead>
                     <tr>
-                        <td style="text-align: center"> Developer id:</td>
-                        <td style="text-align: center"> Developer name:</td>
-                        <td style="text-align: center">Developer age:</td>
-                        <td style="text-align: center">Developer sex:</td>
-                        <td style="text-align: center">Developer salary:</td>
+                        <td style="text-align: center"> id:</td>
+                        <td style="text-align: center"> name:</td>
+                        <td style="text-align: center"> description:</td>
+                        <td style="text-align: center"> cost:</td>
+                        <td style="text-align: center"> company_id:</td>
+                        <td style="text-align: center"> customer_id:</td>
                     </tr>
         <table>
             <tbody>
                     <tr>
                         <td>
-                            <c:out value="${developers.id}"/>
+                            <c:out value="${project.id}"/>
                         </td>
                         <td>
-                            <c:out value="${developers.name}"/>
+                            <c:out value="${project.name}"/>
                         </td>
                         <td>
-                            <c:out value="${developers.age}"/>
+                            <c:out value="${project.description}"/>
                         </td>
                         <td>
-                            <c:out value="${developers.sex}"/>
+                            <c:out value="${project.cost}"/>
                         </td>
                         <td>
-                            <c:out value="${developers.salary}"/>
+                            <c:out value="${project.company_id}"/>
                         </td>
+                        <td>
+                            <c:out value="${project.customer_id}"/>
+                        </td>
+
                     </tr>
             </tbody>
         </table>

@@ -1,5 +1,7 @@
 package ua.ip.hw6.controller.projects;
 
+import ua.ip.hw6.table.Developers;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
